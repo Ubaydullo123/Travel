@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                  <a href="#!" class="logo"><img src="images/logo.png" alt="" class="logo"></a>
+                  <button class="button__navbar navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <i class="intro__icon far fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto align-items-start align-items-lg-center header__ul">
+                      <li class="header__list"><a href="#!" class="header__link">Articles</a></li>
+                      <li class="header__list"><a href="#!" class="header__link">Locations</a></li>
+                      <li class="header__list"><a href="#!" class="header__link">Videos</a></li>
+                      <li class="header__list"><a href="#!" class="header__link enter">Sign in</a></li>
+                    </ul>
+                  </div>
+                </div> 
+              </nav>
+              <section class="header__section">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="title"><h1 class="header__title">Discover Amazing places in Japan</h1></div>
+                            <p class="header__text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p>
+                        </div>
+                    </div>
+                        <div class="div__button">
+                            <input type="text" class="header__input" placeholder="What would you like to do?">
+                            <input type="text" class="header__input" placeholder="Where would you like to go?">
+                            <a href="#!" class="header__btn">SEARCH</a>
+                        </div>
+              </section>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro__section">
+            <div class="section__main container">
+                <div class="row d-flex jucstify-content-center">
+                    <h3 class="intro__section-title">Benefits of Odigo</h3>
+                    <div class="col-lg-4">
+                        <div class="div__content">
+                            <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="66" height="66" fill="url(#pattern0)"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0" transform="scale(0.025)"/>
+                                </pattern>
+                                <image id="image0" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAA79JREFUWAnlWMtPE0EY/2ZnS6FQHuUhQnipgGhUMEYEuUkC6MmDHowXb8ajRgRMPBmL8gfIyZPRSEy8mAg+bmKF4OPgMwKCb1GKSBHa7uw4WyhZWma2sFtCdJN2Z/b75je/+Wa+/X0twP90Nbg9vQ3tnodWrlmyCuxQVxcGRDcA0I2htkXAyAqcJvejbZIsX3elJRdreOOTvuFgQDly7+zeF2bxTRGsv+gpTcKym1C1qbKiOLEwNyu0Ix+//STP34z4AdBtogbaupvrhlZKdNkE913oy7QhtQnb5BNscGVpUa69pCBHSpDlRRwCigLvP42RwZGvfgrwJBgIXqZ21HP3VK13kaNBR0iQHXoPO1MyRagNUai22fBhoqrlWelOf2FetjM/xwWSJIQAVaXwecwLH76M/f4x4UuUMX6lKMoNSukAi7AbIQh2t9TU8nguXnaEF0V0J0JIZoRuulKTHa50p7zOlQYYSwkRrtyutoCC3Eztk0qICt+9k5XeiaktXt/0zPjElFOlVOEOZgYhQUylk3a7rX1zSX6qKy0FZGwu6dnCIC87A3JcaQneSV/C0+lhn3822CIiKN4fNrLR7TmKbbiVELKJUog5csJJEQQwxoMkSNzdrTVXhb4iY6SNvYRp5/HqyMfL6h/v7IOelhrDwIRBTe1ZzyAF7cO7jOy8cfrnpgjqgeLVXvMEhVlsFJWGTeKjZGQ3wtfs4hl0CA3uxwdYMXBb92jFTRVg/72WmjuxAMREUNNcmyT11VWVZ2SmO2PB5fqM/5qC3mdvvUqQVN9tqx3kOs4boghqNR2LK2Wvgrp97v4NdpkcQYBP76goSgkXA0agRvZQMfF6dJoC6fAr+NqD1t3D+nn146MJtntmmANGEgrK7Cs/10XLitY7kh2J+nGm274/s/Bu9OufT9+8EquGVKpSGwMlLDBJevCoJMEYnZMk6fyurRsd2Rmpmu7q/S1rp7AFV1WUOLaXFcGPid8w8HIooCpqW+QEUREESlHjpb5jrOpoVohSYpW8RU4c7rNqJoAlPMyqpI7uM3uuhJ+H79EEw5b5uxXyFgG50I1F9kztn5GUGdkXmAoapggKcC0zrXmCUVm8nKUbSZmRPZa5hElipbzxyBjJHpeglfLGIxeL7IUI6mUmXvLGI2kke3MEV0neeCRFshdKktWSNx5BkezNncFVljce0aVkb8kkiae88cjxZO/fflFrq47lMvNb2pSSaOQO1u8Wcrx1v19oNzKu+S1e8wS5WWwU+njYl/OfTTzmXxHmX89XoD84/K7ZAAAAAElFTkSuQmCC"/>
+                                </defs>
+                                </svg>
+                                
+                            <p class="section__item">Welcome to Odigo!</p>
+                            <p class="section__text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
+                            <a href="#!" class="sectoin__btn">LEARN MORE  <svg width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.7706 3H0V5H24.7706V8L33 4L24.7706 0V3Z" fill="#006DFE"/>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="div__content">
+                            <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="58" height="58" fill="url(#pattern0)"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0" transform="scale(0.025)"/>
+                                </pattern>
+                                <image id="image0" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAApNJREFUWAljYBjkgBHZfZ6dJ30YmRgW/f37TxBZnF5sZmam9wx//sduq7TYCrOTBcYA0UxMDAuD7DQEJYV5kYXpxn725rPg+iPXFwItFIFZygRjgOg/f/8JDZTjQPZLifAy/PnzXxjEhgEUB8IEBxMNT4NOrcfFWZkZXgwGx/3+yyCxr9ryJcgt8DTIzcbcEm6n/MdaXRAuNhCOPXrz/Z+Vh+62AO1OBdkPjmKPriPKbOxM0RaqA+s4kINAbgC5BeQmuANZmFn7Yh1U2JkHQYoEuQHkFpCbwA507zxmJMTN7qorxzcInAdyEgMDyC0gN4HcxsTGzDIl1lGFc9C4DuhAkFtAbgK5jdG94/h/kKsHKwDn2PwQ80HpvolrTkJy8aB0HdRReJPe2gPXGNYdvIbT/bSWB1nMwsrC/Pbzt5/CvFzsKA758uMXw5tP3xgYgCn06/ffDNycrHSVB7qJgY2Z6Q2zukeqPgMDo7qcGD8zsgsu3XnBIMXLwiDGz87w7ttvcEVOT/nTN5//evXh6yZmFeeUYy/ff0759+8/lxAfJ8PPP38ZLt99wXD53kuGhiA1Bj1ZXoYlh+4z/P33j4GPh4PhF43lgS0qhjM3nzFcuP3iPdDKQHBjwaXziBQHE+tTJiZGBiBiMFQUYMhylmcQ4WUDB9rrT78Ypu99wHDuwUcGkAZayv8HJqm/QPznB6PUzhrT5/BYA5WHgwUgl814czHc9QPIIKpp5dF5giZO3FFuQdBcohwIMoWY2gZU8pOqFqwBDzHoo3jUgXhijyip0RAkKpjwKBoNQTyBQ5TUaAgSFUx4FI2GIJ7AIUpqNASJCiY8ikZDEE/gECUFH8BEbmYTpZPGinZWWMLdRmOrKDMeACQGuBTLDEyAAAAAAElFTkSuQmCC"/>
+                                </defs>
+                                </svg>
+                            <p class="section__item">Your Personal Japan Guide</p>
+                            <p class="section__text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
+                            <a href="#!" class="sectoin__btn">LEARN MORE  <svg width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.7706 3H0V5H24.7706V8L33 4L24.7706 0V3Z" fill="#006DFE"/>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="div__content">
+                            <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="58" height="58" fill="url(#pattern0)"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0" transform="scale(0.025)"/>
+                                </pattern>
+                                <image id="image0" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAApNJREFUWAljYBjkgBHZfZ6dJ30YmRgW/f37TxBZnF5sZmam9wx//sduq7TYCrOTBcYA0UxMDAuD7DQEJYV5kYXpxn725rPg+iPXFwItFIFZygRjgOg/f/8JDZTjQPZLifAy/PnzXxjEhgEUB8IEBxMNT4NOrcfFWZkZXgwGx/3+yyCxr9ryJcgt8DTIzcbcEm6n/MdaXRAuNhCOPXrz/Z+Vh+62AO1OBdkPjmKPriPKbOxM0RaqA+s4kINAbgC5BeQmuANZmFn7Yh1U2JkHQYoEuQHkFpCbwA507zxmJMTN7qorxzcInAdyEgMDyC0gN4HcxsTGzDIl1lGFc9C4DuhAkFtAbgK5jdG94/h/kKsHKwDn2PwQ80HpvolrTkJy8aB0HdRReJPe2gPXGNYdvIbT/bSWB1nMwsrC/Pbzt5/CvFzsKA758uMXw5tP3xgYgCn06/ffDNycrHSVB7qJgY2Z6Q2zukeqPgMDo7qcGD8zsgsu3XnBIMXLwiDGz87w7ttvcEVOT/nTN5//evXh6yZmFeeUYy/ff0759+8/lxAfJ8PPP38ZLt99wXD53kuGhiA1Bj1ZXoYlh+4z/P33j4GPh4PhF43lgS0qhjM3nzFcuP3iPdDKQHBjwaXziBQHE+tTJiZGBiBiMFQUYMhylmcQ4WUDB9rrT78Ypu99wHDuwUcGkAZayv8HJqm/QPznB6PUzhrT5/BYA5WHgwUgl814czHc9QPIIKpp5dF5giZO3FFuQdBcohwIMoWY2gZU8pOqFqwBDzHoo3jUgXhijyip0RAkKpjwKBoNQTyBQ5TUaAgSFUx4FI2GIJ7AIUpqNASJCiY8ikZDEE/gECUFH8BEbmYTpZPGinZWWMLdRmOrKDMeACQGuBTLDEyAAAAAAElFTkSuQmCC"/>
+                                </defs>
+                                </svg>
+                                
+                            <p class="section__item">Promoting Local Businesses</p>
+                            <p class="section__text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
+                            <a href="#!" class="sectoin__btn">LEARN MORE  <svg width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.7706 3H0V5H24.7706V8L33 4L24.7706 0V3Z" fill="#006DFE"/>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="next__section">
+            <div class="container">
+                <div class="next__title">
+                    <h3 class="next__section-title">Get inspired for your next trip</h3>
+                    <a href="#!" class="next__title-link">VIEW ALL <svg width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.7706 3H0V5H24.7706V8L33 4L24.7706 0V3Z" fill="#006DFE"/>
+                        </svg></a>
+                </div>
+                <div class="item__images">
+                    <div class="items">
+                        <img src="images/item.png" alt="" class="images">
+                        <div class="content__item">
+                            <h4 class="item__title">mount fuji</h4>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <img src="images/item1.png" alt="" class="images">
+                        <div class="content__item">
+                            <h4 class="item__title">kygo</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__images">
+                    <div class="items">
+                        <img src="images/item2.png" alt="" class="content__img">
+                        <div class="content__item">
+                            <h4 class="item__title">tokyo</h4>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <img src="images/item3.png" alt="" class="content__img">
+                        <div class="content__item">
+                            <h4 class="item__title">niigata</h4>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <img src="images/item4.png" alt="" class="content__img">
+                        <div class="">
+                            <h4 class="item__title">sapporo</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="section__info-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="images/Image.png" alt="" class="info__img">
+                        </div>
+                        <div class="col-6">
+                            <div class="infos">
+                                <h3 class="info__title">Prefecture in Focus: Tottori</h3>
+                                <p class="info__text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p>
+                                <a href="#!" class="info__link">VIEW PREFECTURE <svg class="icons" width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24.7706 3H0V5H24.7706V8L33 4L24.7706 0V3Z" fill="#006DFE"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="info__second">
+                                <h3 class="info__second-title">Featured Neighborhood: Kyoto’s Arashiyama</h3>
+                                <p class="info__second-text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p>
+                                <a href="#!" class="info__link">VIEW NEIGHBORHOOD <svg class="icons" width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24.7706 3H0V5H24.7706V8L33 4L24.7706 0V3Z" fill="#006DFE"/>
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/Image1.png" alt="" class="info__second-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="items__content">
+            <div class="container">
+                <h3 class="items__content-title">Today top places to visit</h3>
+                <div class="row">
+                    <div class=" col-lg-4">
+                        <div class="content position-relative">
+                             <img src="images/img.png" alt="" class="items__block-img">
+                        <div class="items__block">
+                            <h6 class="items__title">NAGOYA</h6>
+                            <div class="icons__item">
+                                <h6 class="icon__number">221</h6>
+                                <i class="black__icon fal fa-heart"></i>
+                                <h6 class="icon__number">50</h6>
+                                <i class="black__icon far fa-comment-alt-lines"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <p class="items__block-text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.</p>
+                        <a href="#!" class="items__block-link">SEE MORE</a>
+                    </div>
+                    <div class="col-lg-4">
+                         <div class="content position-relative">
+                             <img src="images/img2.png" alt="" class="items__block-img">
+                        <div class="items__block">
+                            <h6 class="items__title">NIIGATA</h6>
+                            <div class="icons__item">
+                                <h6 class="icon__number">221</h6>
+                                <i class="black__icon fal fa-heart"></i>
+                                <h6 class="icon__number">50</h6>
+                                <i class="black__icon far fa-comment-alt-lines"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <p class="items__block-text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.</p>
+                        <a href="#!" class="items__block-link">SEE MORE</a>
+                    </div>
+                    <div class="col-lg-4">
+                         <div class="content position-relative">
+                             <img src="images/img3.png" alt="" class="items__block-img">
+                        <div class="items__block">
+                            <h6 class="items__title">OSAKA</h6>
+                            <div class="icons__item">
+                                <h6 class="icon__number">221</h6>
+                                <i class="black__icon fal fa-heart"></i>
+                                <h6 class="icon__number">50</h6>
+                                <i class="black__icon far fa-comment-alt-lines"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <p class="items__block-text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.</p>
+                        <a href="#!" class="items__block-link">SEE MORE</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                         <div class="content position-relative">
+                             <img src="images/img4.png" alt="" class="items__block-img">
+                        <div class="items__block">
+                            <h6 class="items__title">SAITAMA</h6>
+                            <div class="icons__item">
+                                <h6 class="icon__number">221</h6>
+                                <i class="black__icon fal fa-heart"></i>
+                                <h6 class="icon__number">50</h6>
+                                <i class="black__icon far fa-comment-alt-lines"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <p class="items__block-text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.</p>
+                        <a href="#!" class="items__block-link">SEE MORE</a>
+                    </div>
+                    <div class="col-lg-4">
+                         <div class="content position-relative">
+                             <img src="images/img5.png" alt="" class="items__block-img">
+                        <div class="items__block">
+                            <h6 class="items__title">UENO</h6>
+                            <div class="icons__item">
+                                <h6 class="icon__number">221</h6>
+                                <i class="black__icon fal fa-heart"></i>
+                                <h6 class="icon__number">50</h6>
+                                <i class="black__icon far fa-comment-alt-lines"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <p class="items__block-text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.</p>
+                        <a href="#!" class="items__block-link">SEE MORE</a>
+                    </div>
+                    <div class="col-lg-4">
+                         <div class="content position-relative">
+                             <img src="images/img6.png" alt="" class="items__block-img">
+                        <div class="items__block">
+                            <h6 class="items__title">SHIBUYA</h6>
+                            <div class="icons__item">
+                                <h6 class="icon__number">221</h6>
+                                <i class="black__icon fal fa-heart"></i>
+                                <h6 class="icon__number">50</h6>
+                                <i class="black__icon far fa-comment-alt-lines"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <p class="items__block-text">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.</p>
+                        <a href="#!" class="items__block-link">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__end">
+            <div class="container">
+                <div class="div__icon">
+                    <i class="play__icon fas fa-play-circle"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__items-logo">
+                    <a href="#!"><img src="images/logo.png" class="footer__logo" alt=""></a>
+                </div>
+                <div class="footer__content">
+                    <ul class="footer__list">
+                        <li><a class="footer__link" href="#!">Company</a></li>
+                        <li><a class="footer__link" href="#!">About </a></li>
+                        <li><a class="footer__link" href="#!">Team</a></li>
+                        <li><a class="footer__link" href="#!">Careers</a></li>
+                        <li><a class="footer__link" href="#!">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a class="footer__link" href="#!">Locations</a></li>
+                        <li><a class="footer__link" href="#!">Tokyo</a></li>
+                        <li><a class="footer__link" href="#!">Kyoto</a></li>
+                        <li><a class="footer__link" href="#!">Osaka</a></li>
+                        <li><a class="footer__link" href="#!">Hokkaido</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a class="footer__link" href="#!">Social Media</a></li>
+                        <li><a class="footer__link" href="#!">Facebook </a></li>
+                        <li><a class="footer__link" href="#!">Twitter</a></li>
+                        <li><a class="footer__link" href="#!">Instagram</a></li>
+                        <li><a class="footer__link" href="#!">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="libs/bootstrap.bundle.min.js"></script>
+</body>
+</html>
